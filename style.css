@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.location{
+    border-radius: 10px 10px 0px 0px;
+}
+.timer{
+    font-weight: 600;
+}
+.more-information{
+    align-items: baseline !important;
+    background-color: rgba(0,0,0,0.6);
+    justify-content: start !important;    
+}
+.humidity{
+    align-self: right;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.windspeed{
+    align-self: right;
+    flex-direction: row;
+    padding-left: 10px;
+}
+
+
+
+.location, .temperature, .more-information {
+    background-color: rgba(0,0,0,0.6);
+    
+    height: 20vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.temperature{
+    border-radius: 0px 0px 10px 10px;
+    flex-direction: column;
+}
+
+.degree-section{
+    display: flex;
+    align-items: right !important;
+    cursor: pointer;
+    
+}
+
+
+.degree-section h2 {
+    font-size: 40px;
+}
+
+.temperature-fahreinheit{
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
