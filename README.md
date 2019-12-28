@@ -1,5 +1,4 @@
 # Temperature-App
-# English (US)
 
 # Informations About the App
 
@@ -14,7 +13,7 @@ There's also informations in it such as humidity and Wind Speed (All Information
 The background changes if the temperatures are higher than 25 C° (or 77F) and 10 C° (50F).
 The data updates every 1min.
 
-#What I learned
+# What I learned
 
 I learned that it's possible to get informations from web using API's and that it's important to use the "console.log()" to actually know what's going on in the development of an app.
 
