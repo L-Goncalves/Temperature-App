@@ -19,8 +19,16 @@ I learned that it's possible to get informations from web using API's and that i
 
 I learned from a huge mistake that you should never use a setInterval() function that gets informations from a server within a short period of time like "SetInverval(getInfo, 10)" it'll send so much requests that if the server doesn't have a security anti-ddos it'll take the website down, but if it has (fortunately it had a security system) it'll block you with a 429 status due to Too many requests.
 
-I learned how to put an information inside an html element with ".textContent"
+I learned as well
 
-I learned how to create a clock using Javascript
+How use things put an information inside an html element with .textContent
+Some styling that I didn't know before that was possible
+How to create a clock using Javascript
+Make a function to restart every x seconds.
+that there's a built-in stuff on Javascript to get user's location (I thought we need to use some framework for that).
 
-Some things were easy to do like using "querySelector" to select HTML elements but that's basic stuff.
+
+
+Thanks for checking out this project! Have fun checking the temperature in your city
+
+Note: It won't show as "Country/City" it'll probably show as "Continent/City" for some places.
