@@ -1,7 +1,7 @@
 # Temperature-App
-#English (US)
+# English (US)
 
-#Informations About the App
+# Informations About the App
 
 Allow the Location so the Application can work (It doesn't work if you don't allow it).
 It doesn't need anything else other than a localhost live server but that's easy to use
